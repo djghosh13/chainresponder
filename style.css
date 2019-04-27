@@ -1,0 +1,43 @@
+nav#menu {
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18pt;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #30336b;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#menu a:hover {
+    background-color: #130f40;
+}
+
+#main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: beige;
+}
