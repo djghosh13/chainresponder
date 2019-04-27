@@ -56,7 +56,7 @@ nav#menu {
     left: 0;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 #data table {
@@ -90,4 +90,17 @@ nav#menu {
 #data td, #data th {
     flex: 1 1 20%;
 	text-align:center;
+}
+
+#data td {
+    height: 100%;
+}
+
+#data td.fulfill {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#data td.fulfill:hover {
+    color: black;
 }

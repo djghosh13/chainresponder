@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    showRequests(requests);
+})
+
 function showRequests(requests) {
     let table = $("#data tbody");
     table.html("");
@@ -6,7 +10,7 @@ function showRequests(requests) {
             <tr>
                 <td>${request.receiverID}</td>
                 <td>${request.name}</td>
-                <td><a href="#">Fulfill Request</a></td>
+                <td class="fulfill">Fulfill Request</td>
             </tr>
         `);
     }
